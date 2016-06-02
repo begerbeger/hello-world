@@ -2,10 +2,8 @@ language: python
 python:
   - "2.6"
   - "2.7"
-install: 
-	echo Her er install!
-script: 
-	echo Her er script!
+install: "echo Her er install!"
+script: "echo Her er script!"
 env:
   global:
   - test_env_variabel=testverdi
